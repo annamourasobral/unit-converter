@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Varela', sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  color: #fff;
+}
+
+#gradient-background {
+  background-image: linear-gradient(45deg,
+  hsl(207deg 100% 18%) 0%,
+  hsl(203deg 100% 24%) 11%,
+  hsl(198deg 100% 28%) 22%,
+  hsl(192deg 100% 30%) 33%,
+  hsl(181deg 100% 29%) 44%,
+  hsl(168deg 100% 33%) 56%,
+  hsl(155deg 100% 38%) 67%,
+  hsl(112deg 60% 57%) 78%,
+  hsl(76deg 75% 53%) 89%,
+  hsl(55deg 100% 50%) 100%);
+  border-top: 1px solid #fff;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.076);
+  border: none;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+#results {
+  background-color: rgb(8, 26, 41);
+  border-bottom: 1px solid #fff;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  width: 621.733px;
+  text-align: center;
+  padding: 20px 0;
+}
